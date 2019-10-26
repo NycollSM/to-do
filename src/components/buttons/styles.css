@@ -1,0 +1,43 @@
+.Btn-left{
+  display: flex;
+  padding: 8px;
+  margin: 10px;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+  font-size: 1.2em;
+  border-radius: 4px;
+  background: transparent;
+}
+
+.Btn-left:hover {
+  transition: .4s;
+  cursor: pointer;
+  background: cadetblue;
+  color: white;
+}
+
+.wrapper-buttons {
+  width: 250px;
+  height: 100vh;
+  background: black;
+  border-right: 2px solid cadetblue;
+  display: inline-block;
+}
+
+.btn-form{
+  width: 25%;
+  height: 55px;
+  color: cadetblue;
+  border: 1px solid cadetblue;
+  font-size: 1.2em;
+  border-radius: 4px;
+  background: transparent;
+  margin: 0 10px;
+}
+
+.btn-form:hover {
+  transition: .4s;
+  cursor: pointer;
+  background: cadetblue;
+  color: white;
+}
