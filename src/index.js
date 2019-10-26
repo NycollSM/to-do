@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 // import ls from 'local-storage';
-import localStorage from 'localstorage';
+// import localStorage from './localstorage';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

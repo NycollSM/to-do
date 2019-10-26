@@ -15,11 +15,11 @@ class CreateTask extends Component {
     })
   }
   render() {
-    // let formTodo = null;
+    let formTodo = null;
     if (this.state.toggle){
     }
     return (
-      // <button className="Btn-left" onClick={this.toggleHandler}>Create New Task</button>,
+      <button className="Btn-left" onClick={this.toggleHandler}>Create New Task</button>,
       <Form />
     )
   }
